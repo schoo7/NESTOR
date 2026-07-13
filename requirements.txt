@@ -1,0 +1,41 @@
+# =============================================================================
+# Amphicrine Analysis - Python Dependencies
+# Generated from venv_processing environment
+# Install: source venv_processing/bin/activate && pip install -r requirements.txt
+# =============================================================================
+
+# Core analysis
+anndata==0.12.2
+scanpy
+scvi-tools
+cell2location==0.1.5
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Data handling
+h5py==3.14.0
+fastparquet
+openpyxl
+pyarrow
+
+# Integration and ML
+scikit-learn
+igraph
+leidenalg
+
+# GSEA and enrichment
+gseapy==1.1.13
+
+# FA2 for force-directed layouts
+fa2_modified==0.4
+
+# Utilities
+tqdm
+requests
+pyyaml
